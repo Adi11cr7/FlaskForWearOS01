@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Heart Rate Data</title>
+</head>
+<body>
+    <h1>Heart Rate Data</h1>
+    <ul>
+        {% for heart_rate in heart_rate_data %}
+        <li>{{ heart_rate }} bpm</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
